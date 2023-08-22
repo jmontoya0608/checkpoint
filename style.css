@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gainsboro;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+main {
+    display: flex;
+}
+nav a {
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+#banner {
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+}
+.hm1 {
+    background-color: black;
+    color: white;
+}
+.sm12 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+#sc1 {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+p {
+    width: 20rem;
+    padding: 0.5rem;
+}
+.ima123 {
+    width: 24rem;
+    height: 15rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+#ds1 {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: start;
+    text-align: center;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+table, tr, th, td {
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    height: 3rem;
+    width: 35rem;
+}
+#f1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+#email {
+    color: white;
+}
+@media (min-width:320px) and (max-width:768px) /*Movile*/ { 
+    .hm1 {
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) /*Tablet*/ {
+
+}
+@media (max-width:1024px) /*Notebook/Pc*/ {
+
+}
